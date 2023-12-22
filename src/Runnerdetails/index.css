@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+
+.mainContainer{
+    display: flex;
+    padding: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-around;
+    background-color: #dbdbd9;
+    min-height: 100vh;
+}
+
+.runnerContainer{
+    background-color: #a8a8a7;
+    height: 60vh;
+    width: 45vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+   
+}
+
+.listContainer{
+    background-color: #ffffff;
+    height: 80vh;
+    width: 130vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.para{
+    color: #545352;
+}
+.input{
+    height: 35px;
+    width: 40vh;
+}
+.formContainer{
+    margin-top: 20px;
+}
+
+.inputContainer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    color: #ffffff;
+    background-color: black;
+    height: 50px;
+    width: 30vh;
+    margin-top: 30px;
+}
+
+.listNames{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    color: #545352;
+}
+
+.listItems{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+    background-color: #a8a8a7;
+    height: 40px;
+}
+
+.startButton{
+    background-color: red;
+    color: #ffffff;
+    height: 40px;
+    width: 90px;
+}
+
+.bottomRight {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 100px;
+    margin-right: 60px;
+  }
+  
+  .horizontalLine {
+    width: 100%;
+    margin-bottom: 8px;
+    border-top: 1px solid #000;
+  }
+  
+  .bottomButton {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
